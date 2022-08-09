@@ -8,3 +8,5 @@ In this method, the next step in the sequence is a linear function of differenti
 Seasonal Autoregressive Integrated Moving-Average with Exogenous Regressors (SARIMA):
 This method models the next step in the sequence as a linear function of the differenced observations, errors, differenced seasonal observations, and seasonal error at prior time steps. It combines the ARIMA models with the ability to perform the same autoregression, differencing , and moving average modeling at the seasonal level. The notation for the model involves specifying the order for the AR(p), I(d), and MA(q) models as parameters to an ARIMA function and AR(P), I(D), MA(Q) and m parameters at the seasonal level. A SARIMA model can be used to develop AR, MA, ARMA and ARIMA models. The method is suitable for univariate time series with trend and/or seasonal components.
 
+
+The data set is the excel file provided.
